@@ -1,6 +1,6 @@
 # Uncertainty-Allocation-Tube-MPC
 This repository is the official implementation for the paper: **"Uncertainty Allocation-based Tube Model Predictive Control for building energy management"**.
-![Project Overview Figure](.pipeline/pipeline.pdf)
+![Project Overview Figure](.pipeline/pipeline.png)
 
 
 This project uses the data from multiple sources.
