@@ -7,6 +7,14 @@ Authors: Qi Li, Wenbo Zeng, Xueyuan Cui, Yi Wang
 
 This paper proposes a novel Uncertainty Allocation-based Tube MPC (UA-TMPC) framework. Departing from conventional static policies, we introduce a cost-aware active uncertainty allocation mechanism that treats allocation coefficients as decision variables, thereby dynamically directing forecasting errors towards the most cost-effective flexible resources. To address the resulting mathematical challenges of decision-dependent uncertainty, we construct adaptive ambiguity tubes that proactively adjust their geometry based on the allocation strategy. Furthermore, a soft-constrained formulation is integrated to mitigate the conservatism of hard tube bounds, enhancing solution feasibility without compromising system reliability.
 
+# Environment
+Python version: 3.8.17
+
+The must-have packages can be installed by running
+```bash
+pip install -r requirements.txt
+
+# Data
 This project uses the data from multiple sources.
 - **Download Link** You can download it from our google drive(https://drive.google.com/drive/folders/1EQyzTMvkdHomEoAbs5OwajAbKfOHnszL?usp=sharing)
 - **Setup** After downloading, place all the files in the same directory as the code. The expected directory should be
@@ -37,3 +45,5 @@ This repository includes Jupyter Notebooks for data exploration, model demonstra
 - **'scenario_test.ipynb'**: Abalation Studies of soft-formulation mechanism on different scaling factors
 - **'sensitivity_analysis.ipynb'**: Sensitivity Analysis on weights of soft-mechanism
 - **'size_sensitivity.ipynb'**: Sensitivity Analysis on scenario size
+
+# 
