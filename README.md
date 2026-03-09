@@ -13,7 +13,7 @@ Python version: 3.8.17
 The must-have packages can be installed by running
 ```bash
 pip install -r requirements.txt
-
+```
 # Data
 This project uses the data from multiple sources.
 - **Download Link** You can download it from our google drive(https://drive.google.com/drive/folders/1EQyzTMvkdHomEoAbs5OwajAbKfOHnszL?usp=sharing)
